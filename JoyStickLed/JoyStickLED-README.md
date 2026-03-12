@@ -78,7 +78,7 @@ This project demonstrates:
 
 ## Possible Improvements
 
-* Add **diagonal direction detection** (two LEDs at once).
 * Use the joystick **button (SEL)** for additional input.
 * Smooth joystick readings using **averaging or filtering**.
 * Replace LEDs with a **direction display or motor control system**.
+* black = GND, RED = VCC, 
