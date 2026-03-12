@@ -34,22 +34,22 @@ void loop() {
   digitalWrite(ledLeft, LOW);
 
   // Up
-  if (yValue > 700) {
+  if (yValue < 300) {
     digitalWrite(ledUp, HIGH);
   }
 
   // Down
-  if (yValue < 300) {
+  if (yValue > 700) {
     digitalWrite(ledDown, HIGH);
   }
 
   // Right
-  if (xValue < 300) {
+  if (xValue > 700) {
     digitalWrite(ledRight, HIGH);
   }
 
   // Left
-  if (xValue > 800) {
+  if (xValue < 300) {
     digitalWrite(ledLeft, HIGH);
   }
 
